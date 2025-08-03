@@ -1,4 +1,3 @@
-
 def safe_eval(expr):
     if '__' in expr:
         raise Exception('Недопустимо')
